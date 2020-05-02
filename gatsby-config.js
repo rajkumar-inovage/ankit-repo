@@ -1,7 +1,7 @@
 const path = require('path')
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://chirofoam-beeta.netlify.app',
+  URL: NETLIFY_SITE_URL = 'https://chir-beeta.netlify.app',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV
 } = process.env;
@@ -12,7 +12,7 @@ module.exports = {
   siteMetadata: {
     title: `Chirofoam™ Memory Foam Mattress`,
     description: `The Chirofoam™ Memory Foam Mattress is designed to get you a more effective and efficient sleep, and helps to relieve back pain. Made in Toronto, ON.`,
-    siteUrl: `https://chirofoam-beeta.netlify.app`,
+    siteUrl: `https://chir-beeta.netlify.app`,
     author: `@chirofoam`
   },
   proxy: {
